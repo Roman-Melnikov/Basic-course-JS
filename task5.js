@@ -1,8 +1,8 @@
 "use strict"
 
+var x = "";
+
 for (var i = 1; i <= 20 ; i++) {
-    for (var j = 1, x = ""; j <= i; j++) {
-         x += "x";
-    }
+    x += "x" ;
     console.log(x);
 }

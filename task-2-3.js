@@ -5,7 +5,7 @@
  */
 function countBasketPrice(cart) {
     for (var i = 0, sum = 0; i < cart.length; i++) {
-        var sum = sum + cart[i].price * cart[i].count;
+        sum = sum + cart[i].price * cart[i].count;
     }
     return sum;
 }
