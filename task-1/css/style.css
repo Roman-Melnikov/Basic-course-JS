@@ -1,0 +1,24 @@
+.container {
+    max-width: 1600px;
+    min-height: 100%;
+    margin: 0 auto;
+}
+
+.img-small {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img-small img {
+    object-fit: contain;
+}
+
+.img-big {
+    display: flex;
+    padding-top: 20px;
+    min-height: 100%;
+}
+
+.img-big img {
+    margin: 0 auto;
+}
