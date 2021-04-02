@@ -5,11 +5,12 @@
 }
 
 .cart {
-    height: 50vh;
+    min-height: 300px;
+    margin-bottom: 5%;
 }
 
 .cart table {
-    margin: 0 auto;
+    margin: 0 auto 3% auto;
 }
 
 .cart-first-row td {
@@ -18,26 +19,20 @@
     text-align: center;
 }
 
-.cart-last-row {
-    position: absolute;
-}
-
-.cart-last-row td {
-    position: relative;
-    left: 488px;
-    top: 20px;
-}
-
 .cart-rows td {
     width: 40px;
     height: 40px;
     text-align: center;
 }
 
+.cart-sum {
+    display: block;
+    text-align: center;
+}
+
 .products {
     display: flex;
     justify-content: space-evenly;
-    height: 50vh;
     align-items: center;
 }
 
@@ -64,5 +59,19 @@
     margin-bottom: 10px;
     padding: 5px 75px;
     border: none;
+    outline: none;
     background: yellow;
+}
+
+.products-item button:hover {
+    filter: brightness(85%);
+    cursor: pointer;
+}
+
+.products-item button:active {
+    filter: brightness(100%);
+}
+
+.products-item button:focus {
+    outline: 1px solid deeppink;
 }

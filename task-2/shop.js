@@ -37,5 +37,5 @@ function showCart () {
                 "</td><td> " + goods[i].quantity + "</td><td>  " + goods[i].sum + "</td></tr>");
         }
     }
-    table.innerHTML += "<tr class='cart-last-row'><td>Общая сумма: " + sum + " руб</td></tr>";
+    cart.insertAdjacentHTML("beforeend", "<span class='cart-sum'>Общая сумма: " + sum + " руб</span>");
 }
