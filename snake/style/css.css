@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.wrp {
+
+}
+
+.score-board {
+    min-height: 7%;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.score-board span:first-letter {
+    text-transform: uppercase;
+}
+
+.games-field {
+    min-height: 200px;
+}
+
+.games-field table {
+    border-collapse: collapse;
+}
+
+.buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-play, .button-replay {
+    padding: 10px 0;
+    box-sizing: border-box;
+    max-width: 150px ;
+    width: 100%;
+    margin-top: 1%;
+    border:none;
+    background: cadetblue;
+    color: aliceblue;
+}
+
+.button-play {
+    text-transform: capitalize;
+}
+
+.button-replay span {
+    text-transform: capitalize;
+}
+
+.game-field-cell {
+    width: 25px;
+    height: 25px;
+    background: darkslategray;
+    border: 1px solid powderblue;
+}
+
+.field-snake {
+    background: aquamarine;
+}
+
+.food-cell {
+    background: red;
+}
+
+.bomb {
+    background: #fff;
+}
